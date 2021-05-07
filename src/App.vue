@@ -2,7 +2,7 @@
   <div>
     <h1>ElementUI Vue2 {{ items.length }} 条数据</h1>
     <p>{{ action }} 费时 {{time}}ms.</p>
-    <el-button type="primary" @click="shuffle">更新</el-button>
+    <button type="primary" @click="shuffle">更新</button>
     <el-table :data="items">
       <el-table-column label="静态">kkb</el-table-column>
       <el-table-column label="静态">kkb</el-table-column>
